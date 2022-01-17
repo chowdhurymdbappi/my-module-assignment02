@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+.part-first{
+    display: flex;
+}
+h1{
+    font-size: 40px;
+   
+}
+
+h2{
+    margin: 50px;
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    font-size:30px ;
+    font-weight: bold;
+}
+h4{
+    font: size 30px;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    border-radius: 50%;
+    background-color: lightslategray;
+}
+:hover .half-width img{
+    transform:scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+.link-button{
+    font-weight: 700;
+    text-decoration: none;
+    background-color: blueviolet;
+    color:whitesmoke;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.link-button2{
+    font-weight: 700;
+    text-decoration: none;
+    background-color:whitesmoke;
+    color:black;
+    border-radius: 5px;
+    text-align:justify;
+    width: 20px;
+    padding-left: 80%;
+}
+#list-menu{
+    text-align: center;
+}
+.products-catagory{
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+}
+.settle-1{
+    width:50%;
+    padding-left: 2%;
+    display: flex;
+
+}
+.settle-2{
+    width:50%;
+    padding-left: 2%;
+    display: flex;
+}
+.tripod{
+    padding-left: 50px;
+
+}
+.camera{
+    padding-left: 50px;
+}
+.microphone{
+    padding-left: 50px;
+}
+.air-buds{
+    padding-left: 50px;
+
+}
+.light-setup{
+    padding-left: 50px;
+
+}
+.drone{
+    padding-left: 50px;
+
+}
+footer{
+    text-align: center;
+    color: lightyellow;
+    background-color:lightsalmon;
+}
+.sophia{
+    color:purple;
+    font-weight:normal;
+}
+.review{
+    color: goldenrod;
+}
+.fab fa-facebook-messenger{
+    border-radius: 80%;
+    background-color: hotpink;
+}
+.fab fa-youtube{
+    border-radius: 80%;
+    background-color: hotpink;
+}
+.fab fa-instagram-square{
+    border-radius: 80%;
+    background-color: hotpink;
+}
+.fab fa-twitter-square{
+    border-radius: 80%;
+    background-color: hotpink;
+}
+@media (max-width: 700px) {
+    .half-width{
+        background-color: tomato;
+    }
+    .products-catagory{
+        background-color: seagreen;
+    }
+    .part-first{
+        background-color: seagreen;
+    }
+    .settle-1{
+        background-color: seagreen;
+    }
+    .settle-2{
+        background-color: seagreen;
+    }
+    .light-setup{
+        background-color: seagreen;
+    }
+    .drone{
+        background-color: seagreen;
+    }
+    .sophia{
+        background-color: seagreen;
+    }
+    .microphone{
+        background-color: seagreen;
+    }
+    .air-buds{
+        background-color: seagreen;
+
+    } .review{
+        background-color: seagreen;
+    }
+}
+@media (min-width: 900px){
+    .half-width{
+        background-color: peru;
+    }
+    .products-catagory{
+        background-color: mediumorchid;
+    }
+    .part-first{
+        background-color:mediumorchid;
+    }
+    .settle-1{
+        background-color:mediumorchid;
+    }
+    .settle-2{
+        background-color:mediumorchid;
+    }
+    .tripod{
+        background-color:mediumorchid;
+    }
+    .light-setup{
+        background-color:mediumorchid;
+    }
+    .drone{
+        background-color:mediumorchid;
+    }
+    .sofia{
+        background-color:mediumorchid;
+    }
+    .microphone{
+        background-color:mediumorchid;
+    }
+    .air-buds{
+        background-color:mediumorchid;
+    }
+    .review{
+        background-color:mediumorchid;
+    }
+    .camera{
+        background-color:mediumorchid;
+    }
+
+}
+/* --MEDIA QUERY--
+Android phone:688px,
+Tablet phone:992px,
+Computer:1312px  */
+
+:hover .a{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+:hover.b{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+:hover.c{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+:hover.d{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+:hover.e{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+:hover.f{
+    transform:scale(1.2);
+    transition: transform 2s ease-in-out;
+}
